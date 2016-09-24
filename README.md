@@ -13,6 +13,10 @@ A simple implmentation of LSTM for sentence classification
 
 # Data preprocessing
 The preprocessing module is kept same with [Kim Yoon's code](https://github.com/yoonkim/CNN_sentence/blob/master/process_data.py) and you can use the program to process your own datasets.
+    
+    python preprocess.py
+
+A **.p** file will be created which contains the input information of dataset. 
 
 # Run the program
     python lstm_sentence.py
