@@ -1,5 +1,5 @@
 # lstm_sentence
-A simple implmentation of LSTM for sentence classification
+A simple implmentation of LSTM for sentence classification based on [Keras](https://keras.io/), an excellent python library for deep learning researcher. 
 
 # Pre-install
 * [python 2.7](https://www.python.org/downloads/)
@@ -20,4 +20,7 @@ A **.p** file will be created which contains the input information of dataset.
 
 # Run the program
     python lstm_sentence.py
+If GPU is availabel on your machine, the program will be executed on GPU by default. You can use different gpu to run the code by specifying **gpu** parameter on the command line:
+
+    THEANO_FLAGS=mode=FAST_RUN,device=#YOUR_GPU_NUMBER# python lstm_sentence.py
 
