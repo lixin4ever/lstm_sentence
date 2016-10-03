@@ -24,3 +24,10 @@ If GPU is availabel on your machine, the program will be executed on GPU by defa
 
     THEANO_FLAGS=mode=FAST_RUN,device=#YOUR_GPU_NUMBER# python lstm_sentence.py
 
+# Hyper-parameter setting
+Default settings of hyper-parameter are as belows:
+* `dim_embeddings`: 200
+* `dim_out`(dimension of the output vector): 128
+* `batch_size`: 32
+* `n_epoch`: 20
+* `optimizer`: adam
