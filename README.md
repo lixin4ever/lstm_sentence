@@ -20,7 +20,7 @@ A **.p** file will be created which contains the input information of dataset.
 
 # Run the program
     python lstm_sentence.py
-If GPU is availabel on your machine, the program will be executed on GPU by default. You can use different gpu to run the code by specifying **gpu** parameter on the command line:
+If GPU is available on your machine, the program will be executed on GPU by default. You can use different gpu to run the code by specifying **gpu** parameter on the command line:
 
     THEANO_FLAGS=mode=FAST_RUN,device=#YOUR_GPU_NUMBER# python lstm_sentence.py
 
