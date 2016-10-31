@@ -1,5 +1,5 @@
 # lstm_sentence
-A simple implmentation of LSTM and Bidirectional LSTM for sentence classification based on [Keras](https://keras.io/), an excellent python library for deep learning researcher. 
+A simple implmentation of **LSTM** and **Bidirectional LSTM** for sentence classification based on [Keras](https://keras.io/), an excellent python library for deep learning researcher. 
 
 # Pre-install
 * [python 2.7](https://www.python.org/downloads/)
